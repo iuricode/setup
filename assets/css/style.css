@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #6610f2;
+  color: #fafafa;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fafafa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button,
+input {
+  border: 0;
+  font-family: "Saira";
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+body {
+  font-family: "Saira";
+  background-color: #080713;
+  color: #fafafa;
+  padding: 40px 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #17161d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6610f2;
+  border-radius: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 72px;
+}
+
+header img {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  transition: 0.2s;
+}
+
+header img:hover {
+  outline: 4px solid #fafafa;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 2.4rem;
+  background: linear-gradient(70deg, #923dff 13%, #ac76ff 94%);
+  font-weight: 400;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header a {
+  background: linear-gradient(70deg, #923dff 13%, #ac76ff 94%);
+  text-align: center;
+  font-size: 2rem;
+  padding: 16px 72px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 24px;
+  transition: 0.4s;
+}
+
+header a:hover {
+  background: linear-gradient(70deg, #7b28e8 13%, #9a5ff2 94%);
+}
+
+section {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+section div {
+  margin: 24px 0px;
+}
+
+section hr {
+  border: none;
+  border-top: 1px solid #6610f2;
+}
+
+section h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin: 24px 0px;
+}
+
+section ul {
+  margin-left: 16px;
+}
+
+section ul li {
+  font-size: 2rem;
+  list-style-position: inside;
+  margin: 8px 0px;
+}
+
+section ul li::before {
+  content: "\2022 ";
+  color: #6610f2;
+  margin-right: 8px;
+}
+
+section ul li a {
+  font-weight: 300;
+}
+
+section ul li a:hover {
+  color: #6610f2;
+}
+/*# sourceMappingURL=style.css.map */

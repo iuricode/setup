@@ -1,0 +1,40 @@
+section {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0px $gap-3;
+
+  div {
+    margin: $gap-3 0px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid $color-main;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin: $gap-3 0px;
+  }
+
+  ul {
+    margin-left: $gap-2;
+    li {
+      font-size: 2rem;
+      list-style-position: inside;
+      margin: $gap-1 0px;
+      &::before {
+        content: "\2022 ";
+        color: $color-main;
+        margin-right: $gap-1;
+      }
+      a {
+        font-weight: 300;
+        &:hover {
+          color: $color-main;
+        }
+      }
+    }
+  }
+}
